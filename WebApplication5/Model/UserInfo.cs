@@ -11,10 +11,5 @@ namespace WebApplication5.Model
         public string userName { get; set; }
         public string password { get; set; }
         public string url { get; set; }
-
-        public override string ToString()
-        {
-            return userName;
-        }
     }
 }
